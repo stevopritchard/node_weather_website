@@ -5,7 +5,7 @@ const forecast = (latitude, longtitude, callback) => {
     
     request({ url, json: true }, (error, { body } = {}) => {
         const { error: connectError, current } = body
-        const { weather_descriptions, temperature, precip} = current
+        const { weather_descriptions, temperature, precip, humidity} = current
 
         if (error) {
             callback("Unable to connect.", undefined)
@@ -15,7 +15,8 @@ const forecast = (latitude, longtitude, callback) => {
             callback(undefined,{
                 weather: weather_descriptions[0],
                 temperature: temperature,
-                precipitation: precip
+                precipitation: precip,
+                humidity: humidity
             })
         }
     })
