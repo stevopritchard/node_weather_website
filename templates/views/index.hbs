@@ -1,19 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Weather</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/606ffcd4bd.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../img/weather.png">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     {{>header}}
-    <form>
-        <input placeholder="Enter location...">
-        <button>Search</button>
+    <form class="field has-addons">
+        <p class="control is-expanded">
+            <input class="input" type="text" placeholder="Enter location...">
+        </p>
+        <p class="control">
+            <button class="button">
+                Search
+            </button>
+        </p>
     </form>
-    <p id="message-1"></p>
-    <p id="message-2"></p>
+    <div class="block">
+        <p id="message1"></p>
+        <p id="message2"></p>
+        {{!-- <progress class="progress is-small is-primary" max="100">15%</progress> --}}
+        <div class="columns">
+            <div class="forecast-card column is-8 is-offset-2">
+                <div id="forecast" class="card">
+                    <div class="columns is-flex is-vcentered">
+                        <div class="column is-one-quarter">
+                            <div class="level">
+                                <p class="level-item is-size-5" id="time">Time</p>
+                            </div>
+                            <div class="level">
+                                <p class="level-item is-size-7" id="date">Date</p>
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <p class="level-item has-text-centered is-size-1" id="temperature">Temperature</p>
+                        </div>
+                        <div class="column is-one-quarter">
+                            <div class="level">
+                                <div class="level-item" style="flex-basis: 0; flex-grow: 1; flex-shrink: 1;" >
+                                    <p class="is-size-7" id="location">Location</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="columns is-flex is-vcentered">
+                            <div class="column is-one-quarter">
+                                <div class="content level-item">
+                                    <div>
+                                        <div class="block">
+                                            <p id="humidity" class="is-size-7">Humidity</p>
+                                        </div>
+                                        <div class="block center">
+                                            <i class="fa-solid fa-droplet"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-half">
+                                <div class="card-image level">
+                                    <div class="content level-item">
+                                        <div>
+                                            <div class="block center">   
+                                                <img id="icon" src="">
+                                            </div>
+                                            <div class="block">   
+                                                <p id="weather">Weather</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-one-quarter">
+                                <div class="content level-item">
+                                    <div>
+                                        <div class="block">
+                                            <p id="wind_speed" class="is-size-7">Wind Speed</p>
+                                        </div>
+                                        <div class="block center">
+                                            <i class="fa-solid fa-wind"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     {{>footer}}
-    <script src="js/app.js"></script>
+    <script type='module' src="js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,386 @@
+[
+  {
+      "Icon": "wsymbol_0012_heavy_snow_showers",
+      "Hexadecimal": "#94b5e5"
+  },
+  {
+      "Icon": "wsymbol_0016_thundery_showers",
+      "Hexadecimal": "#97b4e5"
+  },
+  {
+      "Icon": "wsymbol_0024_thunderstorms",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0016_thundery_showers",
+      "Hexadecimal": "#96b4e7"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0013_sleet_showers",
+      "Hexadecimal": "#96b4e4"
+  },
+  {
+      "Icon": "wsymbol_0012_heavy_snow_showers",
+      "Hexadecimal": "#94b5e5"
+  },
+  {
+      "Icon": "wsymbol_0011_light_snow_showers",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0013_sleet_showers",
+      "Hexadecimal": "#96b4e4"
+  },
+  {
+      "Icon": "wsymbol_0013_sleet_showers",
+      "Hexadecimal": "#96b4e4"
+  },
+  {
+      "Icon": "wsymbol_0018_cloudy_with_heavy_rain",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0010_heavy_rain_showers",
+      "Hexadecimal": "#96b4e4"
+  },
+  {
+      "Icon": "wsymbol_0009_light_rain_showers",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0020_cloudy_with_heavy_snow",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0012_heavy_snow_showers",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0020_cloudy_with_heavy_snow",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0020_cloudy_with_heavy_snow",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0011_light_snow_showers",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0011_light_snow_showers",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0019_cloudy_with_light_snow",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0018_cloudy_with_heavy_rain",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0010_heavy_rain_showers",
+      "Hexadecimal": "#96b4e4"
+  },
+  {
+      "Icon": "wsymbol_0018_cloudy_with_heavy_rain",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0010_heavy_rain_showers",
+      "Hexadecimal": "#96b4e4"
+  },
+  {
+      "Icon": "wsymbol_0017_cloudy_with_light_rain",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0017_cloudy_with_light_rain",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0017_cloudy_with_light_rain",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0009_light_rain_showers",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0007_fog",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0007_fog",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0020_cloudy_with_heavy_snow",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0019_cloudy_with_light_snow",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0016_thundery_showers",
+      "Hexadecimal": "#97b4e5"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0021_cloudy_with_sleet",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0013_sleet_showers",
+      "Hexadecimal": "#96b4e4"
+  },
+  {
+      "Icon": "wsymbol_0009_light_rain_showers",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0006_mist",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0004_black_low_cloud",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0003_white_cloud",
+      "Hexadecimal": "#96b4e6"
+  },
+  {
+      "Icon": "wsymbol_0002_sunny_intervals",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0001_sunny",
+      "Hexadecimal": "#96b5e5"
+  },
+  {
+      "Icon": "wsymbol_0028_heavy_snow_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0032_thundery_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0040_thunderstorms_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0032_thundery_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0029_sleet_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0028_heavy_snow_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0027_light_snow_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0029_sleet_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0029_sleet_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0034_cloudy_with_heavy_rain_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0026_heavy_rain_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0025_light_rain_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0036_cloudy_with_heavy_snow_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0028_heavy_snow_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0036_cloudy_with_heavy_snow_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0036_cloudy_with_heavy_snow_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0027_light_snow_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0027_light_snow_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0035_cloudy_with_light_snow_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0034_cloudy_with_heavy_rain_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0026_heavy_rain_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0034_cloudy_with_heavy_rain_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0026_heavy_rain_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0025_light_rain_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0033_cloudy_with_light_rain_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0033_cloudy_with_light_rain_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0025_light_rain_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0007_fog",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0007_fog",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0036_cloudy_with_heavy_snow_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0035_cloudy_with_light_snow_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0032_thundery_showers_night",
+      "Hexadecimal": "#3c4990"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0037_cloudy_with_sleet_night",
+      "Hexadecimal": "#939393"
+  },
+  {
+      "Icon": "wsymbol_0029_sleet_showers_night",
+      "Hexadecimal": "#3c4a8f"
+  },
+  {
+      "Icon": "wsymbol_0025_light_rain_showers_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0006_mist",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0004_black_low_cloud",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0004_black_low_cloud",
+      "Hexadecimal": "#c5c5c5"
+  },
+  {
+      "Icon": "wsymbol_0008_clear_sky_night",
+      "Hexadecimal": "#3c4a90"
+  },
+  {
+      "Icon": "wsymbol_0008_clear_sky_night",
+      "Hexadecimal": "#3c4a90"
+  }
+]

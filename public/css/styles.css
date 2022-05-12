@@ -57,3 +57,33 @@ button {
     background: #888888;
     color: white;
 }
+
+.forecast-card {
+    /* visibility: hidden; */
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.card-header {
+    height: 200;
+}
+
+
+.center {
+    text-align: center;
+}
