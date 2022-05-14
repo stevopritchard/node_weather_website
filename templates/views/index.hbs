@@ -11,79 +11,82 @@
 </head>
 <body>
     {{>header}}
-    <form class="field has-addons">
-        <p class="control is-expanded">
-            <input class="input" type="text" placeholder="Enter location...">
-        </p>
-        <p class="control">
-            <button class="button">
-                Search
-            </button>
-        </p>
-    </form>
     <div class="block">
-        <p id="message1"></p>
-        <p id="message2"></p>
-        {{!-- <progress class="progress is-small is-primary" max="100">15%</progress> --}}
+        <p id="message1" class="center"></p>
+        <p id="message2" class="center"></p>
         <div class="columns">
-            <div class="forecast-card column is-8 is-offset-2">
-                <div id="forecast" class="card">
-                    <div class="columns is-flex is-vcentered">
-                        <div class="column is-one-quarter">
-                            <div class="level">
-                                <p class="level-item is-size-5" id="time">Time</p>
-                            </div>
-                            <div class="level">
-                                <p class="level-item is-size-7" id="date">Date</p>
-                            </div>
-                        </div>
-                        <div class="column is-half">
-                            <p class="level-item has-text-centered is-size-1" id="temperature">Temperature</p>
-                        </div>
-                        <div class="column is-one-quarter">
-                            <div class="level">
-                                <div class="level-item" style="flex-basis: 0; flex-grow: 1; flex-shrink: 1;" >
-                                    <p class="is-size-7" id="location">Location</p>
-                                </div>
-                            </div>
+                <div class="column is-8 is-offset-2">
+                    <div class="input-container">
+                        <div id="input">
+                            <form class="field has-addons">
+                                <p class="control is-expanded">
+                                    <input class="input" type="text" placeholder="Enter location...">
+                                </p>
+                                <p class="control">
+                                    <button class="button">
+                                        Search
+                                    </button>
+                                </p>
+                            </form>
                         </div>
                     </div>
-                    <div class="card-content">
-                        <div class="columns is-flex is-vcentered">
-                            <div class="column is-one-quarter">
-                                <div class="content level-item">
-                                    <div>
-                                        <div class="block">
-                                            <p id="humidity" class="is-size-7">Humidity</p>
-                                        </div>
-                                        <div class="block center">
-                                            <i class="fa-solid fa-droplet"></i>
+                    <div class="forecast-card">
+                        <div id="forecast" class="card">
+                            <div class="columns is-flex is-vcentered">
+                                <div class="column is-one-quarter">
+                                    <div class="level">
+                                        <p class="level-item is-size-7" id="datetime">Datetime</p>
+                                    </div>
+                                </div>
+                                <div class="column is-half">
+                                    <p class="level-item has-text-centered is-size-1" id="temperature">Temperature</p>
+                                </div>
+                                <div class="column is-one-quarter">
+                                    <div class="level">
+                                        <div class="level-item" style="flex-basis: 0; flex-grow: 1; flex-shrink: 1;" >
+                                            <p class="is-size-7" id="location">Location</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="column is-half">
-                                <div class="card-image level">
-                                    <div class="content level-item">
-                                        <div>
-                                            <div class="block center">   
-                                                <img id="icon" src="">
-                                            </div>
-                                            <div class="block">   
-                                                <p id="weather">Weather</p>
+                            <div class="card-content">
+                                <div class="columns is-flex is-vcentered">
+                                    <div class="column is-one-quarter">
+                                        <div class="content level-item">
+                                            <div>
+                                                <div class="block">
+                                                    <p id="humidity" class="is-size-7">Humidity</p>
+                                                </div>
+                                                <div class="block center">
+                                                    <i class="fa-solid fa-droplet"></i>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="column is-one-quarter">
-                                <div class="content level-item">
-                                    <div>
-                                        <div class="block">
-                                            <p id="wind_speed" class="is-size-7">Wind Speed</p>
+                                    <div class="column is-half">
+                                        <div class="card-image level">
+                                            <div class="content level-item">
+                                                <div>
+                                                    <div class="block center">   
+                                                        <img id="icon" src="">
+                                                    </div>
+                                                    <div class="block center">   
+                                                        <p id="weather">Weather</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="block center">
-                                            <i class="fa-solid fa-wind"></i>
+                                    </div>
+                                    <div class="column is-one-quarter">
+                                        <div class="content level-item">
+                                            <div>
+                                                <div class="block">
+                                                    <p id="wind_speed" class="is-size-7">Wind Speed</p>
+                                                </div>
+                                                <div class="block center">
+                                                    <i class="fa-solid fa-wind"></i>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -91,10 +94,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
-    
     {{>footer}}
     <script type='module' src="js/app.js"></script>
 </body>

@@ -1,11 +1,11 @@
-import weatherCodes from '../weather-codes.json' assert { type: 'json' };
+import weatherCodes from "../weather-codes.json" assert { type: "json" };
 
 function rgbToYIQ({ r, g, b }) {
   return (r * 299 + g * 587 + b * 114) / 1000;
 }
 
 function hexToRgb(hex) {
-  if (!hex || hex === undefined || hex === '') {
+  if (!hex || hex === undefined || hex === "") {
     return undefined;
   }
 
@@ -22,58 +22,55 @@ function hexToRgb(hex) {
 
 function contrast(colorHex, threshold = 128) {
   if (colorHex === undefined) {
-    return '#000';
+    return "#000";
   }
 
   const rgb = hexToRgb(colorHex);
 
   if (rgb === undefined) {
-    return '#000';
+    return "#000";
   }
 
-  return rgbToYIQ(rgb) >= threshold ? '#444444' : '#fff';
+  return rgbToYIQ(rgb) >= threshold ? "#444444" : "#fff";
 }
 
-const weatherForm = document.querySelector('form');
+const weatherForm = document.querySelector("form");
 
-const forecast = document.getElementById('forecast');
+const forecast = document.getElementById("forecast");
 
-const search = document.querySelector('input');
+const search = document.querySelector("input");
 
-const messageOne = document.getElementById('message1');
-const messageTwo = document.getElementById('message2');
+const messageOne = document.getElementById("message1");
+const messageTwo = document.getElementById("message2");
 
-const timeText = document.getElementById('time');
-const dateText = document.getElementById('date');
-const tempText = document.getElementById('temperature');
-const weatherText = document.getElementById('weather');
-const locationText = document.getElementById('location');
-const humidityText = document.getElementById('humidity');
-const windSpeedText = document.getElementById('wind_speed');
+const datetimeText = document.getElementById("datetime");
+const tempText = document.getElementById("temperature");
+const weatherText = document.getElementById("weather");
+const locationText = document.getElementById("location");
+const humidityText = document.getElementById("humidity");
+const windSpeedText = document.getElementById("wind_speed");
 
-const icon = document.getElementById('icon');
+const icon = document.getElementById("icon");
 
-weatherForm.addEventListener('submit', (event) => {
+weatherForm.addEventListener("submit", (event) => {
   event.preventDefault();
-  messageOne.innerHTML = 'Getting weather...';
-  messageTwo.innerHTML = '';
+  messageOne.innerHTML = "Getting weather...";
+  messageTwo.innerHTML = "";
   fetch(`/weather?address=${encodeURIComponent(search.value)}`).then(
     (response) => {
       response.json().then(async (data) => {
-        if (data.error) {
-          // messageLocation.innerHTML = data.error;
-          // messageTwo.innerHTML = '';
-        } else {
+        if (!data.error) {
+          messageOne.innerHTML = "";
+
           console.log(data);
-          forecast.classList.add('fade-in');
-          forecast.style.visibility = 'visible';
-          timeText.innerHTML = data.Forecast_data.localtime.split(' ')[1];
-          dateText.innerHTML = data.Forecast_data.localtime.split(' ')[0];
-          tempText.innerHTML = data.Forecast_data.temperature + '°C';
+          forecast.classList.add("fade-in");
+          forecast.style.visibility = "visible";
+          datetimeText.innerHTML = data.Forecast_data.localtime;
+          tempText.innerHTML = data.Forecast_data.temperature + "°C";
           weatherText.innerHTML = data.Forecast_data.weather;
           locationText.innerHTML = data.location;
-          humidityText.innerHTML = data.Forecast_data.humidity + '%';
-          windSpeedText.innerHTML = data.Forecast_data.windSpeed + ' km/h';
+          humidityText.innerHTML = data.Forecast_data.humidity + "%";
+          windSpeedText.innerHTML = data.Forecast_data.windSpeed + " km/h";
           var bgColour = weatherCodes.find((weatherCode) => {
             return (
               weatherCode.Icon ===
@@ -82,9 +79,11 @@ weatherForm.addEventListener('submit', (event) => {
               )[1]
             );
           }).Hexadecimal;
-          document.getElementById('forecast').style.background = bgColour;
-          document.getElementById('forecast').style.color = contrast(bgColour);
+          document.getElementById("forecast").style.background = bgColour;
+          document.getElementById("forecast").style.color = contrast(bgColour);
           icon.src = data.Forecast_data.icon;
+        } else {
+          messageOne.innerHTML = data.error;
         }
       });
     }
